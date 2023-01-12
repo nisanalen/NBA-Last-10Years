@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* background color of the navbar */
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none; /* remove bullet points from list items */
+    margin: 0; /* remove default margins */
+    padding: 0; /* remove default padding */
+    overflow: hidden; /* hide overflowing content */
+  }
+  
+  nav li {
+    float: left; /* make list items float next to each other */
+  }
+  
+  nav a {
+    display: block; /* make the links take up the full width of the list items */
+    color: white; /* text color */
+    text-align: center; /* center align text */
+    padding: 14px 16px; /* add some padding */
+    text-decoration: none; /* remove underline from links */
+  }
+  
+  nav a:hover {
+    background-color: #111; /* change background color on hover */
+  }
+
+  h1{
+    text-align: center;
+    color: #333;
+    border: #111 1px solid;
+  }
+
+  h2{
+    text-align: center;
+    color: #111;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  img{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: #111 5px solid;
+  }
